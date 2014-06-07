@@ -11,6 +11,7 @@ names(df)<- c("Date","Time","Global Active Power","Global Reactive Power","Volta
 
 df[,"Global Active Power"]<- as.numeric(df[,"Global Active Power"])
 
+
 ## Save file to png
 png(filename = "./plot1.png", width = 480, height = 480, units = "px", pointsize = 12, bg = "white")
 
