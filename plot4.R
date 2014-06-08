@@ -33,7 +33,7 @@ legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),l
 plot(y=df[,"Voltage"],x=df[,"DateTime"],type='l',xlab='DateTime',ylab='Voltage')
 
 ##BottomRight
-plot(y=df[,"Global Reactive Power"],x=df[,"DateTime"],type='l',xlab='',ylab='Global_reactive_power)')
+plot(y=df[,"Global Reactive Power"],x=df[,"DateTime"],type='l',xlab='DateTime',ylab='Global_reactive_power)')
 
 
 ## Close File
